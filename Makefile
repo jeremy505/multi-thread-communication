@@ -8,7 +8,7 @@ all:$(TARGET)
 .PHONY:clean
 
 clean:
-	find . -name "*.0" | xargs rm -rf
+	find . -name "*.o" | xargs rm -rf
 	find . -name "*~" | xargs rm -rf
 	find . -name "*#" | xargs rm -rf
 	rm -rf $(TARGET)
